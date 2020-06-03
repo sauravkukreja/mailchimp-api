@@ -12,7 +12,7 @@ app.get("/" , function(req,res){
   res.sendFile(__dirname + "/signup.html");
 });
 
-app.post("/" , function(req,res){
+app.post("/" , function(req, res){
   const name = req.body.name ;
   const email = req.body.email ;
   const data = {
